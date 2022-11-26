@@ -1,0 +1,22 @@
+@import '../../mixins.scss';
+
+.History {
+  @include container;
+  width: 16rem;
+  background: rgba(98, 111, 134, 0.1);
+  font-family: 'Roboto';
+  color: #012b44;
+
+  &_title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+    margin-top: 0;
+  }
+
+  .WordLinkList_listItem span {
+    &:hover {
+      border-bottom: 2px solid #012b44;
+    }
+  }
+}

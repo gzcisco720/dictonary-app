@@ -1,0 +1,12 @@
+.WordLinkList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  color: inherit;
+
+  &_listItem {
+    margin: 0.2em 0;
+    cursor: pointer;
+  }
+}
